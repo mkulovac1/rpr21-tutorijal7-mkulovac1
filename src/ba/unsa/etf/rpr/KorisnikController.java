@@ -3,7 +3,7 @@ package ba.unsa.etf.rpr;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class KorisnikController {
     @FXML
     private Label welcomeText;
 

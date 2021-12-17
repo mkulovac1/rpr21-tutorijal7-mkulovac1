@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>ba.unsa.etf.rpr/ba.unsa.etf.rpr.HelloApplication</mainClass>
+                            <mainClass>ba.unsa.etf.rpr/ba.unsa.etf.rpr.KorisnikApplication</mainClass>
                         </configuration>
                     </execution>
                 </executions>

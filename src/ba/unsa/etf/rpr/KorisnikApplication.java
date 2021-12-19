@@ -14,7 +14,7 @@ public class KorisnikApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(KorisnikApplication.class.getResource("/fxml/korisnik.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), USE_COMPUTED_SIZE , USE_COMPUTED_SIZE);
-        stage.setTitle("Hello!");
+        stage.setTitle("Korisnici");
         stage.setScene(scene);
         stage.setMinWidth(600);
         stage.setMinHeight(400);

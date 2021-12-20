@@ -1,17 +1,22 @@
 package ba.unsa.etf.rpr;
 
-import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.testfx.framework.junit5.Start;
 
 import java.io.IOException;
 
 import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class KorisnikApplication extends Application {
-    @Override
+class KorisnikModelTest {
+
+    @BeforeEach
+    @Start
     public void start(Stage stage) throws IOException {
         KorisnikModel model = new KorisnikModel();
         model.napuni();
@@ -25,7 +30,35 @@ public class KorisnikApplication extends Application {
         stage.show();
     }
 
-    public static void main(String[] args) {
-        launch();
+
+
+    @Test
+    void getKorisnici() {
+
+    }
+
+    @Test
+    void setKorisnici() {
+
+    }
+
+    @Test
+    void getTrenutniKorisnik() {
+
+    }
+
+    @Test
+    void trenutniKorisnikProperty() {
+
+    }
+
+    @Test
+    void setTrenutniKorisnik() {
+
+    }
+
+    @Test
+    void napuni() {
+
     }
 }
